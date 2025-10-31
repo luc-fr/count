@@ -1,3 +1,3 @@
-export default function Count() {
-    return <span>0</span>
+export default function Count({value}) {
+    return <span>{value}</span>
 }
